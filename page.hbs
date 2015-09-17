@@ -27,36 +27,6 @@
         </p>
       </section>
     </section>
-    <section id="loop" class="suggested Container-Small">
-      <h1 class="title">suggested reads</h1>
-      <hr class="title"/>
-      {{#next_post}}
-        <article class="suggested">
-          <header>
-            <h1>{{title}}</h1>
-          </header>
-          <section class="excerpt">
-            <p>{{excerpt words="30"}}</p>
-          </section>
-          <footer>
-            <a href="{{url absolute="true"}}"><div class="ghostb">read</div></a>
-          </footer>
-        </article>
-      {{/next_post}}
-      {{#prev_post}}
-        <article class="suggested">
-          <header>
-            <h1>{{title}}</h1>
-          </header>
-          <section class="excerpt">
-            <p>{{excerpt words="30"}}</p>
-          </section>
-          <footer>
-            <a href="{{url absolute="true"}}"><div class="ghostb">read</div></a>
-          </footer>
-        </article>
-      {{/prev_post}}
-    </section>
   </footer>
 </article>
 {{/post}}
