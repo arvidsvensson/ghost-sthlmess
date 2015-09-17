@@ -16,16 +16,16 @@
           <header>
             <h1>{{title}}</h1>
             {{#if tags}}
-                <p>by <b>{{author}}</b>, on {{date format="MMMM DD, YYYY"}} - {{tags separator=" & "}}</p>
+                <p><b>{{author}}</b> - {{tags separator=" & "}}</p>
               {{else}}
-                <p>by <b>{{author}}</b>, on {{date format="MMMM DD, YYYY"}}</p>
+                <p><b>{{author}}</b></p>
             {{/if}}
           </header>
           <section class="excerpt">
             <p>{{excerpt words="40"}}</p>
           </section>
           <footer>
-            <a href="{{url absolute="true"}}"><div class="ghostb">read</div></a>
+            <a href="{{url absolute="true"}}"><div class="ghostb">Läs</div></a>
           </footer>
         </section>
       </article>
@@ -34,16 +34,16 @@
         <header>
           <h1>{{title}}</h1>
           {{#if tags}}
-              <p>by <b>{{author}}</b>, on {{date format="MMMM DD, YYYY"}} - {{tags separator=" & "}}</p>
+              <p><b>{{author}}</b> - {{tags separator=" & "}}</p>
             {{else}}
-              <p>by <b>{{author}}</b>, on {{date format="MMMM DD, YYYY"}}</p>
+              <p><b>{{author}}</b></p>
           {{/if}}
         </header>
         <section class="excerpt">
           <p>{{excerpt words="60"}}</p>
         </section>
         <footer>
-          <a href="{{url absolute="true"}}"><div class="ghostb">read</div></a>
+          <a href="{{url absolute="true"}}"><div class="ghostb">Läs</div></a>
         </footer>
       </article>
     {{/if}}
